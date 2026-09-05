@@ -135,7 +135,6 @@ Between **1:03 PM and 1:21 PM on September 4, 2026**, the user **wilsonuser** do
  
 Over the following ~13 minutes, the browser's content-process count climbed steadily from roughly 11 to 20, indicating an extended, hands-on browsing session with many tabs open. The session ended with the creation of a file named **`tor-shopping-list.txt`** (plus its shortcut) directly on the Desktop.
  
-**Assessment:** All activity in this dataset is self-contained — a single user, on a single device, downloading, installing, and personally using Tor Browser, with no evidence in these exports of lateral movement, external tooling, or automated/scripted behavior. The interactive install (double-click before the silent re-launch) and the steadily climbing tab count point to manual, hands-on-keyboard use rather than malware or a scripted process. The resulting file name ("shopping list") suggests the user may have been browsing and noting items from anonymized/dark-web sites, though the actual file contents are not present in the provided logs and cannot be confirmed from this data alone. Whether this constitutes a policy violation depends on your organization's acceptable-use policy regarding anonymization tools — Tor usage itself is not inherently malicious, but unsanctioned installation of anonymizing software on a corporate endpoint typically warrants a policy/HR follow-up.
 ---
 
 ## Response Taken
